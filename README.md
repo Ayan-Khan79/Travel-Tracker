@@ -1,13 +1,8 @@
-Description
 Travel Tracker is a web application designed to help users track their travels, log visited destinations, and plan future trips. This application is built using JavaScript, PostgreSQL, and EJS.
 
 Features
-User authentication and authorization
-Add, edit, and delete travel destinations
-View a list of all travels
-Plan future trips with details
-Search functionality to find specific travels
-Responsive design for mobile and desktop use
+Add travel destinations
+
 Technologies Used
 Frontend: HTML, CSS, JavaScript, EJS
 Backend: Node.js, Express.js

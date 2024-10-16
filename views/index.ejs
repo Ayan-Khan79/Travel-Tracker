@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">z
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Tracker</title>
   <link rel="stylesheet" href="./styles/main.css">
@@ -24,7 +24,7 @@
 
   <form action="/add" method="post">
     <input type="text" name="country" autofocus placeholder="<%= locals.error ? error :  'Enter country name'%>">
-    <button type="submit" style="background-color: <%= color %>; ">Add</button>
+    <button type="submit" style="background-color: <%= color %>;">Add</button>
   </form>
 
   <section class="ag-canvas">
@@ -388,8 +388,8 @@
   <h2 class="total-count">Total Countries: <%=total%>
   </h2>
   <script>
-    const country_codes = JSON.parse("<%= countries %>");
-    // console.log(typeof ("<%= countries %>"))
+    const country_codes = "<%= countries %>".split(",")
+    console.log(typeof ("<%= countries %>"))
     country_codes.forEach(code => {
       document.getElementById(code).style.fill = "<%= color %>"
     });

@@ -35,7 +35,7 @@ To run the Travel Tracker locally on your machine, follow the steps below:
       createdb travel_tracker_db
  ### -Ensure you have PostgreSQL installed on your system.
  ### -Create a new database using pgAdmin or the psql CLI.
- ### -Update the database connection details in the .env file.
+ ### -Update the database connection details in the index.js file.
 
 
 ## 🛠️ **Usage**
